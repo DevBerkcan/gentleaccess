@@ -1,10 +1,10 @@
-import Footer from "@/components/home/home-one/footer";
-import Header from "@/components/home/home-one/header/multi-page";
+import Footer from "@/components/home/home-eight/footer";
+import Header from "@/components/home/home-eight/header/one-page";
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template Home One",
+	title: "Sofax || Responsive Next.js Template Home Eight",
 	description: "Sofax || Responsive Next.js Template",
 };
-function LayoutOne({ children }) {
+function OnePageLayoutEight({ children }) {
 	return (
 		<>
 			<Header />
@@ -14,4 +14,4 @@ function LayoutOne({ children }) {
 	);
 }
 
-export default LayoutOne;
+export default OnePageLayoutEight;

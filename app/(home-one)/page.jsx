@@ -1,25 +1,27 @@
-import Cta from "@/components/home/home-one/cta";
-import HeroSection from "@/components/home/home-one/hero";
-import Integrations from "@/components/home/home-one/integrations";
-import LogoSlider from "@/components/home/home-one/logo-slider";
-import PricePlan from "@/components/home/home-one/price-plan";
-import Services from "@/components/home/home-one/services";
-import Testimonial from "@/components/home/home-one/testimonial";
-import WhyChooseUs from "@/components/home/home-one/why-choose-us";
+import AboutOne from "@/components/home/home-eight/about-one";
+import AboutTwo from "@/components/home/home-eight/about-two/AboutTwo";
+import Counter from "@/components/home/home-eight/counter";
+import Features from "@/components/home/home-eight/features";
+import Hero from "@/components/home/home-eight/hero";
+import PricePlan from "@/components/home/home-eight/price-plan";
+import Projects from "@/components/home/home-eight/projects";
+import Services from "@/components/home/home-eight/services";
+import Testimonials from "@/components/home/home-eight/testimonials";
 
-function HomeOne() {
+function HomeEight() {
 	return (
 		<>
-			<HeroSection />
-			<LogoSlider />
+			<Hero />
+			<Features />
+			<AboutOne />
+			<Counter />
 			<Services />
-			<WhyChooseUs />
+			<AboutTwo />
 			<PricePlan />
-			<Integrations />
-			<Testimonial />
-			<Cta />
+			<Projects />
+			<Testimonials />
 		</>
 	);
 }
 
-export default HomeOne;
+export default HomeEight;
