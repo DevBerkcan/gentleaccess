@@ -1,5 +1,5 @@
-import Icon1 from "@/public/images/v8/icon1v8.png";
-import Icon2 from "@/public/images/v8/icon2v8.png";
+import Icon1 from "@/public/images/v7/icon5v6.png";
+import Icon2 from "@/public/images/v7/icon5v6.png";
 import Thumb from "@/public/images/v8/image2v8.png";
 import Image from "next/image";
 
@@ -29,8 +29,8 @@ function AboutOne() {
 									<Image src={Icon1} alt="icon" />
 								</div>
 								<div className="sofax-iconbox-data2 aboutv8">
-									<h4>Zertifizierte Expertise</h4>
-									<p>Unsere Spezialisten sind nach internationalen Standards zertifiziert.</p>
+									<h4>Individuelle Lösungen</h4>
+									<p>Jede Webseite ist einzigartig – wir passen unsere Lösungen an Ihre Bedürfnisse an.</p>
 								</div>
 							</div>
 							<div className="sofax-iconbox-wrap2">
