@@ -12,14 +12,9 @@ function HomeEight() {
 	return (
 		<>
 			<Hero />
-			<Features />
 			<AboutOne />
-			<Counter />
 			<Services />
-			<AboutTwo />
-			<PricePlan />
-			<Projects />
-			<Testimonials />
+			<Counter />
 		</>
 	);
 }

@@ -16,11 +16,11 @@ function AboutOne() {
 					<div className="col-lg-6">
 						<div className="sofax-default-content about-vr8 tac">
 							<div className="tg-heading-subheading animation-style3">
-								<h2>Strive offer intelling business solutions</h2>
+								<h2>Digitale Inklusion für alle Nutzer</h2>
 							</div>
 							<p>
-								Technologies & data-driven strategies help organizations achieve their goals optimize
-								operations & maintain a competitive edge in the market.
+								Wir setzen uns für eine digitale Welt ohne Barrieren ein. Unsere Lösungen ermöglichen 
+								Menschen mit Behinderungen den uneingeschränkten Zugang zu Online-Inhalten.
 							</p>
 						</div>
 						<div className="sofax-about-content-wrap">
@@ -29,8 +29,8 @@ function AboutOne() {
 									<Image src={Icon1} alt="icon" />
 								</div>
 								<div className="sofax-iconbox-data2 aboutv8">
-									<h4>Best Services</h4>
-									<p>Thorough problemsolving to prevent recurrence.</p>
+									<h4>Zertifizierte Expertise</h4>
+									<p>Unsere Spezialisten sind nach internationalen Standards zertifiziert.</p>
 								</div>
 							</div>
 							<div className="sofax-iconbox-wrap2">
@@ -38,8 +38,8 @@ function AboutOne() {
 									<Image src={Icon2} alt="icon" />
 								</div>
 								<div className="sofax-iconbox-data2 aboutv8">
-									<h4>24/7 Call Support</h4>
-									<p>Our teams available to 24 hours and 7 days a week.</p>
+									<h4>Individuelle Beratung</h4>
+									<p>Maßgeschneiderte Lösungen für Ihre spezifischen Anforderungen.</p>
 								</div>
 							</div>
 						</div>

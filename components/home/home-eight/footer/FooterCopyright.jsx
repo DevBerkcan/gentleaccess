@@ -1,7 +1,7 @@
 function FooterCopyright() {
 	return (
 		<div className="sofax-footer-bottom center">
-			<p>© 2024 Mthemeus All Rights Reserved.</p>
+			<p>© 2025 Gantle Acces Rights Reserved.</p>
 		</div>
 	);
 }

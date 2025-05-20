@@ -6,55 +6,57 @@ import icon3 from "@/public/images/v8/icon8v8.png";
 import icon4 from "@/public/images/v8/icon9v8.png";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import ServiceCard from "./ServiceCard";
+
 const servicesData = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "Software Development",
+		title: "Barrierefreie Webentwicklung",
 		description:
-			"Define to the project scope, objectives, and feasibility. Conduct risk analysis and allocate resources.",
+			"Wir erstellen Webseiten, die für alle zugänglich sind – inklusive Menschen mit Behinderungen.",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Technology Advisory",
-		description: "Development implementation supports risk management and staying ahead of technological trends.",
+		title: "Barrierefreiheit prüfen",
+		description: "Audit und Analyse Ihrer Webseite auf Barrierefreiheit gemäß WCAG & BITV.",
 	},
 	{
 		id: 3,
 		icon: icon3,
-		title: "Analytics & Research",
+		title: "Digitale Inklusion",
 		description:
-			"Investigating why a certain event trend or occurred. Identifying patterns and anomalies in data research.",
+			"Wir fördern digitale Teilhabe für alle – durch zugängliche Gestaltung und nutzerfreundliche Interfaces.",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "IT Strategy & Planning",
+		title: "Strategische Beratung",
 		description:
-			"IT strategy and planning it effectively is essential for aligning technology with a business goals.",
+			"Beratung zur digitalen Barrierefreiheit und rechtlichen Anforderungen (z. B. EU-Richtlinien, BITV).",
 	},
 	{
 		id: 5,
 		icon: icon5,
-		title: "SEO & Optimazation",
+		title: "SEO & Performance",
 		description:
-			"Google Analytics, Ahrefs, SEMrush, a Moz for keyword research, backlink analysis performance tracking.",
+			"Barrierefreiheit steigert nicht nur Zugänglichkeit, sondern auch SEO-Rankings und Ladezeiten.",
 	},
 	{
 		id: 6,
 		icon: icon6,
-		title: "Network Management",
-		description: "This includes wide range tasks such as monitoring network performance, troubleshooting issues.",
+		title: "Technischer Support",
+		description: "Wir begleiten Sie langfristig mit Support und Weiterentwicklungen für Ihre barrierefreie Lösung.",
 	},
 ];
+
 function Services() {
 	return (
 		<section className="sofax-section-padding2 bg-light" id="service">
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>We provide IT and business solutions</h2>
+						<h2>Unsere Leistungen für barrierefreie Webseiten</h2>
 					</div>
 				</div>
 

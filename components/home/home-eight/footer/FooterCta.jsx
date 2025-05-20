@@ -6,7 +6,7 @@ function FooterCta() {
 		<>
 			<div className="col-xl-8 col-lg-8">
 				<div className="tg-heading-subheading animation-style3">
-					<h2>Let's embark on a IT services together!</h2>
+					<h2>Gemeinsam für die Barrierefreiheit!</h2>
 				</div>
 				<div className="sofax-footer-shapev8">
 					<Image src={Shape} alt="shape" />

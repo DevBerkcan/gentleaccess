@@ -10,9 +10,9 @@ function Subscription() {
 		formState: { errors },
 	} = useForm();
 	const submitForm = (formData) => {
-		toast("Form Submited!");
+		toast("Danke für Ihre Anmeldung!");
 		reset();
-		console.log("Submite Form Data = ", formData);
+		console.log("Formular gesendet = ", formData);
 	};
 	return (
 		<div className="sofax-subscription-field5">
@@ -20,16 +20,17 @@ function Subscription() {
 			<form onSubmit={handleSubmit(submitForm)}>
 				<Field error={errors.email}>
 					<input
-						{...register("email", { required: "Email is required." })}
+						{...register("email", { required: "Email ist erforderlich." })}
 						type="email"
 						name="email"
 						id="email"
 						className="field-item"
-						placeholder="Enter Your Email"
+						placeholder="Ihre E-Mail-Adresse"
+						aria-label="E-Mail-Adresse für Newsletter"
 					/>
 				</Field>
 				<button type="submit" className="sofax-subcribe-btn2">
-					Subscribe now
+					Jetzt anmelden
 				</button>
 			</form>
 		</div>
