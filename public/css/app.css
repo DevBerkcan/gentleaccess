@@ -14,19 +14,27 @@
      1.4 themes css
 
 **/
+
 :root {
-	--heading-color: #0e0e0e;
-	--body-color: #3c3c3c;
-	--accent-color: #e5abf3;
-	--light-bg: #f9f9fa;
-	--dark-bg: #0e0e0e;
-	--white-bg: #fff;
-	--white-color: #fff;
-	--light-color: #eaedf0;
-	--light-color2: #dbdbdb;
-	--light-color3: #dbdbdb1a;
-	--green-bg: #0c9347;
-	--grey-color: #747474;
+  /* Text Colors */
+  --heading-color: #000;       /* Deep blue (WCAG AAA) */
+  --body-color: #4A5568;         /* Accessible gray-blue (AA) */
+  
+  /* Brand Colors */
+  --accent-color: #05CD99;       /* Accessible green (AAA) */
+  
+  /* Backgrounds */
+  --light-bg: #F8FAFC;           /* Very light blue-gray */
+  --dark-bg: #000;            /* Dark blue (matches heading) */
+  --white-bg: #FFFFFF;           /* Pure white */
+  
+  /* Utility Colors */
+  --white-color: #FFFFFF;
+  --light-color: #E2E8F0;        /* Light border/divider */
+  --light-color2: #CBD5E0;       /* Secondary light */
+  --light-color3: #CBD5E01A;     /* 10% opacity version */
+  --green-bg: #099a8b;           /* Matching accent green */
+  --grey-color: #718096;         /* Accessible medium gray */
 }
 
 /*1.0 base css*/
